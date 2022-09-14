@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(47, 155, 218);
+}
+
+html{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(231, 243, 250);
+}
+
+
+#logo {
+    height: 8rem;
+    width: 12rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    margin-right: 0rem;
+  }
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    height: 65px;
+}
+
+h1{
+    text-align: center;
+}
+
+#search {
+    height: 43%;
+    width: 55rem;
+    margin-left: 0;
+    margin-top: 21px;
+    margin-bottom: 0px;
+    margin-right: 1rem;
+    border-left: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+#srlogo {
+    height: 2em;
+    width: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.3em;
+  }
+
+  #srdlogo {
+    height: 46%;
+    border-left: 1px solid black;
+    margin-top: 21px;
+    width: 3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: 3rem;
+  }
+  #yorder {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  #carti {
+    height: 2.5rem;
+    padding-top: 2.4rem;
+  }
+#cartt {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
+#contact {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  #profile {
+    height: 4rem;
+    margin-left: 13rem;
+    margin-top: 1.5rem;
+  }
+
+.container{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 100vh;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.class1{
+    width: 10%;
+    height: 100%;
+    background-color: rgb(231, 243, 250);
+}
+
+.class2{
+    width: 70%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.class3{
+    width: 10%;
+    background-color: rgb(231, 243, 250);
+    height: 100%;
+}
+
+.c1{
+    background-color: rgb(231, 243, 250);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.c2{
+    background-color: rgb(231, 243, 250);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.c3{
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(231, 243, 250);
+    margin-bottom: 30px;
+}
+
+.m1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .n1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .o1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  #o {
+    width: 120px;
+    height: 126px;
+  }
+
+  .top{
+    margin-top: 29px;
+padding-top: 0px;
+display: block;
+margin-left: 25px;
+  }
+
+  .middle{
+    color: black;
+display: block;
+margin-top: -10px;
+margin-left: 25px;
+  }
+
+  .down{
+    color: green;
+    display: block;
+margin-top: -10px;
+margin-left: 25px;
+  }
+
+.b1{
+    margin-left: 25px;
+margin-top: -10px;
+display: block;
+background-color: rgb(6, 126, 163);
+height: 25px;
+width: 25px;
+border: none;
+}
+
+.b2{
+    margin-left: 50px;
+margin-top: -25px;
+display: block;
+background-color: white;
+height: 25px;
+width: 25px;
+border: none;
+}
+
+.b3{
+    margin-left: 75px;
+    margin-top: -25px;
+    display: block;
+    background-color: rgb(6, 126, 163);
+    height: 25px;
+    width: 25px;
+    border: none;
+}
+
+.delete {
+  display: block;
+  margin-left: 59rem;
+  margin-top: -3rem;
+  height: 30px;
+  width: 100px;
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
+}
+
+  .buy {
+    margin-left: 48rem;
+    margin-top: -2rem;
+    display: block;
+    height: 30px;
+    width: 100px;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+  }
+
+  .dust{
+    
+  }
+
+  .n2, .m2, .o2 {
+    font-size: 1.4rem;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  h1{
+    color: black;
+  }
